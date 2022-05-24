@@ -1,0 +1,80 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-div{
+    height: 100vh !important;
+    background-color: 
+    #FFD34E;
+    clip-path: polygon(0 1%, 100% 0, 78% 100%, 0% 100%);
+   
+}
+    .loginNow-div{
+
+        top: 150px;
+    }
+
+
+.login-ac-para{
+    font-size: 14px;
+}
+.login-btn{
+    background-color:#FFD34E;
+}
+.signup-div{
+ 
+
+background: white;
+border-radius: 4px;
+
+
+    
+    border-radius: 4px;
+ 
+}
+.description-para{
+    font-size: 12px;
+}
+.input-div{
+    width: 28vw !important;
+}
+.main-login-div{
+    left: 165px;
+    top: 55px;
+    border-radius: 10px;
+   box-shadow:  0px 0px 26px 0px grey;
+   
+}
+.check-box{    
+/* margin-left: -94px; */
+}
+.signin-btn{
+    left: 150px;
+ 
+}
+.input-div{
+    
+}
+.signin2nd-div{
+    top: 200px;
+    left: 40px;
+    font-size: 15px;
+
+}
+.forgot-btn{
+    margin-right: 70px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-login-div{
+      flex-direction: column;
+  }
+  .signin-btn {
+    left: 272px !important;
+}
+.main-login-div{
+    width: 100vw !important;
+}
+  }
